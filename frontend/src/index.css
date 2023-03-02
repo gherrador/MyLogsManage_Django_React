@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Orbitron:wght@500&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+html,
+body,
+#root,
+.app,
+.content{
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif, 'Lilita One', cursive, 'Orbitron', sans-serif;
+  margin: 0;
+}
+
+.app{
+  display: flex;
+  position: relative;
+
+}
+
+::-webkit-scrollbar{
+  width: 10px;  
+}
+
+/* Track */
+
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+/*   margin: 0; */
